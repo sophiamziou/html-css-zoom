@@ -4,3 +4,29 @@
     box-sizing: border-box;
 }
 
+
+body{
+    color: white;
+    background-color: black;
+}
+
+header{
+    background-color: transparent;
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    position: fixed;
+}
+
+.header-container{
+    margin: 5px;
+}
+
+.header-btn{
+    color: white;
+    background-color: rgb(74,74,74);
+    border: none;
+    border-radius: 5px;
+    padding: 2px 4px;
+}
+
