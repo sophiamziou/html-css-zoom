@@ -86,7 +86,6 @@ footer{
     bottom: 0;
     right: 0;
     z-index: 2;
-    padding: 10px;
 }
 
 .footer-container{
@@ -105,6 +104,8 @@ footer{
     flex-direction: row;
     justify-content: space-evenly;
     gap: 10px;
+    padding: 10px;
+    align-items: center;
 }
 
 .content-footer{
@@ -118,4 +119,11 @@ footer{
 
 p{
     font-size: 12px;
+}
+
+.end{
+    font-size: 12px;
+    color: red;
+    text-align: center;
+    background-color: grey;
 }
