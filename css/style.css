@@ -142,3 +142,7 @@ p{
 .green{
     color: rgba(75,200,0,255);
 }
+
+.chevron{
+    font-size: 10px;
+}
