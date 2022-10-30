@@ -17,14 +17,8 @@ body{
 }
 
 .container{
-    width: 90vw;
+    max-width: 90vw;
     margin: 50px auto;
-}
-
-main{
-    height: calc(100vh - 92px); /* calcolo 100 del viewport - 120px del header: 100px header e 20px margin*/
-    width: 100vw;
-    overflow: auto; /* serve a non far fuoriuscire il contenuto rimuovi per vedere cosa succede */
 }
 
 /* start of header */
@@ -53,25 +47,13 @@ header{
 
 /*end of header*/
 
-
-.image{
-    position: relative;
-    width: calc((100% - 28px) / 7);
-    margin: 5px 2px;
-}
-
-img{
-    display: block;
-    width: 100%;
-}
-
 .username{
     position: absolute;
     bottom: 0;
     left: 0;
     background-color: rgba(33, 5, 5, 0.621);
-    font-size: 1vw;
-    padding: 0.5vw;
+    font-size: 60%;
+    padding: 2%;
 }
 
 .row{
@@ -80,12 +62,32 @@ img{
 
 .col{
     width: 100%;
-    display: flex;
-    flex-direction: row;
-    flex-wrap: wrap;
-    justify-content: center;
 }
 
+ul{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10px;
+}
+
+ul li img{
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
+    vertical-align: middle;
+}
+
+li{
+    position: relative;
+    list-style-type: none;
+    width: 180px;
+    height: 120px;
+}
+
+/* start of footer */
 footer{
     background-color: rgba(34,34,34,255);
     width: 100%;
